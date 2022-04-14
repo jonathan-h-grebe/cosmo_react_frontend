@@ -1,0 +1,16 @@
+
+.Banner{
+    height: 12vh;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.BannerChild{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Roboto Condensed Regular 400', sans-serif;
+    font-size: 6vh;
+}
+

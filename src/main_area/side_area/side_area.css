@@ -1,0 +1,32 @@
+.queue_item{
+    list-style-type: none;
+    height: 16vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 5px;
+    padding: 0;
+    background-image: linear-gradient(rgb(227, 226, 226), rgb(255, 254, 254));
+}
+
+.queue_item_text{
+    margin-top: 20%;
+    font-size: 3vh;
+    position: relative;
+    top: 5vh;
+    left: 2vh;
+    font-family: 'Roboto Condensed Regular 400', sans-serif;
+}
+
+.queue_item_text_inactive{
+    color: grey;
+}
+
+.queue_item:hover{
+    background-image: linear-gradient(rgb(248, 251, 253), white);
+    border: solid white 2px;
+}
+
+.queue{
+    margin: 0;
+}
+
